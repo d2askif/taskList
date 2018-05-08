@@ -1,0 +1,148 @@
+
+/* style for detail task view
+
+border-color: #b7bfc6;
+    color: #646f79;
+    fill: #848f99;*/
+
+* {
+  margin:0px;
+}
+html,body {
+  background-color: #f6f8f9;
+  box-sizing: border-box;
+}
+nav {
+  z-index: 20;
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+  top:0%;
+}
+
+.top-nav {
+    background-color: #838487;
+    margin:0;
+}
+
+.top-nav > a {
+    padding: 1% 4% 1% 0;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    color: white;
+    list-style-type: none;
+    text-align: justify;
+    cursor: pointer;
+    text-decoration: none;
+}
+.top-nav > a:hover {
+  color: rgb(20, 170, 245);
+}
+#tatk-detail-title {
+  color: #898E8C;
+  margin-right: 6%;
+}
+
+.container {
+ margin:10% 10% 4% 10%;
+ box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+ overflow: hidden;
+
+}
+.top-menu {
+  border: 1px solid rgb(224, 230, 232);
+  padding: 1% 1% 1% 3%;
+  background: white;
+}
+.top-menu #img-profile {
+  border: 1px solid #b7bfc6;
+  border-radius:50%;
+  height: 36px;
+}
+.top-menu #profile-name, #due-date-lable{
+  font-weight: normal;
+  color: #646f79;
+  fill: #848f99;
+  font-size: 1em;
+  margin-left: 1%;
+}
+#task-due-date {
+  margin:0 0% 0 4%;
+  background-color: inherit;
+  border: 1px solid #888;
+  border-radius:50%;
+  height: 36px;
+  width: 36px;
+}
+#task-due-date:hover {
+  border: 1px solid #AD5D5D;
+}
+#img-profile:hover {
+ border: 1px solid #AD5D5D;
+}
+.fa-calendar-alt {
+  font-size: 20px;
+  color: #888;
+
+}
+#button-more {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: bold;
+  color:#888;
+}
+.task-detail-content {
+  padding:2% 4% 2% 4%;
+  border: 1px solid rgb(224, 230, 232);
+  border-top: 0px;
+  background-color: white;
+  color: rgb(21, 27, 38);
+  overflow: auto;
+  height: 40vh;
+}
+.task-discription-title {
+  display:flex;
+  align-items: center;
+
+}
+.task-discription-title > input[type=checkBox] {
+  margin: 2% 0 1% 0;
+  font-size: 32px;
+ }
+.task-discription-title > h2 {
+  flex: 1 1 90%;
+  margin: 2% 0 1% 1%;
+  font-size: 1.2em;
+  border: 1px solid transparent;
+  padding: 4px;
+}
+.task-discription-title > h2:hover {
+  font-size: 1.2em;
+  border: 1px solid rgb(224, 230, 232);
+  border-radius: 2px;
+
+
+}
+.task-discription {
+  text-align: justify;
+  border: 1px solid transparent;
+  padding: 8px;
+}
+.task-discription:hover {
+  border: 1px solid rgb(224, 230, 232);
+  border-radius: 2px;
+
+}
+.task-discription > p {
+  padding:4px;
+}
+.task-detail-content > span {
+  display: block;
+  padding: 2px;
+  font-size: 12px;
+}

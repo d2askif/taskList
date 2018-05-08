@@ -1,0 +1,30 @@
+*{
+
+}
+
+.top-nav {
+  display: flex;
+}
+ .about {
+     margin-left: auto;
+}
+.task {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.task > div:nth-child(1) {
+  flex: 1 5 90%;
+
+}
+.task > div:nth-child(2) {
+  flex: 1 1 15%;
+}
+.top-title {
+  display: flex;
+  justify-content: space-around;
+}
+#button-more {
+  margin-left: auto;
+}

@@ -1,0 +1,16 @@
+/*
+style-flex for detail task view
+*/
+.top-nav {
+  display: flex;
+}
+.about {
+    margin-left: auto;
+}
+.top-menu {
+  display: flex;
+  align-items: center;
+}
+#button-more {
+  margin-left:auto;
+}
